@@ -1,3 +1,9 @@
+import { Intro } from './components/Intro'
+
 export function HomePage() {
-  return <h1>Home</h1>
+  return (
+    <div className="mt-32">
+      <Intro />
+    </div>
+  )
 }

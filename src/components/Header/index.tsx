@@ -1,4 +1,4 @@
-import CoffeeLogo from '../../assets/Logo/Logo.svg'
+import CoffeeLogo from '../../assets/Logo.svg'
 import { MapPin, ShoppingCart } from 'phosphor-react'
 
 export function Header() {

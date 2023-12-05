@@ -3,10 +3,17 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      // fontFamily: {
-      //   roboto: ['Roboto', 'sans-serif'],
-      //   baloo: ['Baloo', 'sans-serif'],
+      // backgroundImage: {
+      //   'intro-bg': "url('/src/assets/intro-bg.svg')",
       // },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        baloo: ['"Baloo 2"', 'sans-serif'],
+      },
+
+      height: {
+        544: '34rem',
+      },
     },
 
     colors: {
