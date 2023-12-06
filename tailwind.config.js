@@ -23,6 +23,8 @@ export default {
       'button-cart-bg': '#F1E9C9',
       'button-cart': '#C47F17',
       'button-map': '#8047F8',
+      'timer-button': '#DBAC2C',
+      'box-button': '#574F4D',
     },
   },
   plugins: [],
