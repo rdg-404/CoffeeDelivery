@@ -10,13 +10,28 @@ export function OurCoffees() {
         {coffees.map((coffee) => {
           return (
             <>
-              <div className="w-full flex flex-col gap-12 items-center bg-base-card mt-16 rounded-tl-md rounded-tr-3xl rounded-bl-3xl rounded-br-md">
-                {/* <img src={coffee} className="-mt-6" alt="coffee" /> */}
-                <span className="bg-brand-yellow text-button-cart font-semibold uppercase text-sm px-3 py-1 rounded-full">
-                  tradicional
-                </span>
+              <div
+                key={coffee.id}
+                className="w-full flex flex-col gap-6 items-center bg-base-card mt-16 rounded-tl-md rounded-tr-3xl rounded-bl-3xl rounded-br-md"
+              >
+                <img
+                  src={`/coffees/${coffee.photo}`}
+                  className="-mt-6"
+                  alt="coffees"
+                />
+                <div className="w-auto flex flex-wrap gap-2 items-center justify-center">
+                  {coffee.tags.map((tag) => (
+                    <span
+                      key={`${coffee.id}${tag}`}
+                      className=" bg-brand-yellow text-button-cart font-semibold uppercase text-sm px-2 py-1  rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
                 <p className="font-baloo text-2xl">{coffee.name}</p>
-                <p className="font-roboto text-base-label text-center">
+                <p className="font-roboto text-base-label text-center px-2">
                   {coffee.description}
                 </p>
                 <div className="flex justify-center items-center pb-6">
