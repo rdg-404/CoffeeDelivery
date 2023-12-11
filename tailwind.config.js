@@ -32,6 +32,8 @@ export default {
       'brand-yellow': '#F1E9C9',
       'base-label': '#8D8686',
       'base-card': '#F3F2F2',
+      'base-input': '#EDEDED',
+      'base-border': '#E6E5E5',
     },
   },
   plugins: [],
