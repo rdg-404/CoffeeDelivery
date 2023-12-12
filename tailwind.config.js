@@ -6,6 +6,7 @@ export default {
       // backgroundImage: {
       //   'intro-bg': "url('/src/assets/intro-bg.svg')",
       // },
+
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
         baloo: ['"Baloo 2"', 'sans-serif'],
