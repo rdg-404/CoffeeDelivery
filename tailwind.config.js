@@ -25,6 +25,7 @@ export default {
       'base-background': '#fafafa',
       'base-text': '#574F4D',
       'button-map-bg': '#EBE5F9',
+      'base-button': '#E6E5E5',
       'button-cart-bg': '#F1E9C9',
       'button-cart': '#C47F17',
       'button-map': '#8047F8',
