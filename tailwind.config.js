@@ -2,6 +2,10 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    divideWidth: {
+      DEFAULT: '1px',
+      0: '0',
+    },
     extend: {
       // backgroundImage: {
       //   'intro-bg': "url('/src/assets/intro-bg.svg')",
@@ -18,6 +22,7 @@ export default {
 
       width: {
         640: '40rem',
+        448: '28rem',
       },
     },
 

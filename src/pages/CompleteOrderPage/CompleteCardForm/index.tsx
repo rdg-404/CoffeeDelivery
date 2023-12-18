@@ -2,7 +2,7 @@ import { Bank, CreditCard, CurrencyDollarSimple, Money } from 'phosphor-react'
 
 export function CompleteCardForm() {
   return (
-    <div className="flex flex-col gap-8 w-640 bg-base-card rounded-md p-10">
+    <div className="flex flex-col  w-640 bg-base-card rounded-md p-10">
       <div className="flex gap-8">
         <CurrencyDollarSimple
           size={20}
