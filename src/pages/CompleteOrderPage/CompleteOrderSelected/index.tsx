@@ -1,4 +1,5 @@
 import { Minus, Plus, Trash } from 'phosphor-react'
+import { NavLink } from 'react-router-dom'
 
 export function CompleteOrderSelected() {
   return (
@@ -84,9 +85,11 @@ export function CompleteOrderSelected() {
               </div>
             </div>
 
-            <button className="bg-timer-button px-3 py-2 rounded-md uppercase font-bold text-base-background">
-              Confimar pedido
-            </button>
+            <NavLink to="/success" className="flex justify-center">
+              <button className="bg-timer-button px-24 py-2 rounded-md uppercase font-bold text-base-background">
+                Confimar pedido
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
